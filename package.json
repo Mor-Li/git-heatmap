@@ -1,0 +1,21 @@
+{
+  "name": "git-heatmap",
+  "version": "1.0.0",
+  "description": "Visualize git commit frequency as a colored file tree in the terminal",
+  "type": "module",
+  "bin": {
+    "git-heatmap": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
